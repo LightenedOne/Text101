@@ -601,6 +601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: {fileID: 186756987}
   titleText: {fileID: 461343888}
+  startingState: {fileID: 11400000, guid: d3eed911914ab5f4dbb398d301e086f5, type: 2}
 --- !u!4 &487005358
 Transform:
   m_ObjectHideFlags: 0

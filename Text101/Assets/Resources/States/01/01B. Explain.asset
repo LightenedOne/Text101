@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bccb6674dfd221d4bac619292c0381d1, type: 3}
+  m_Name: 01B. Explain
+  m_EditorClassIdentifier: 
+  storyText: 'The Sergeant sighs, standing up straight, and motions towards a large
+    whiteboard across the room.
+
+    "The mission is simple - you''re airdropping into northern Iran to resuce a hostage
+    from ISIS terrorists. This is a stealth mission, ideally - quick and easy. Got
+    it?"
+
+
+    1. "Yes, sir."
+
+    2. "I still don''t get it."'
+  nextStates: []
