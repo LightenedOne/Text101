@@ -17,4 +17,6 @@ MonoBehaviour:
     can handle it?\" he queried, the gravity of the situation apparent on his stoic
     face.\n\n1. \"Yes, sir!\"\n2. \"I'd like a run-down of the mission one more time,
     sir.\""
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 7ed8b53bfa465334c9ba93fca6b3f40a, type: 2}
+  - {fileID: 11400000, guid: e28ae33f470127b4fa1a97abe3b63f5c, type: 2}
