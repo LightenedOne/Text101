@@ -19,7 +19,7 @@ MonoBehaviour:
     Well done.
 
 
-    Press 1 to retry or Q to quit.'
+    Press R to retry or Q to quit.'
   nextStates:
   - {fileID: 11400000, guid: d3eed911914ab5f4dbb398d301e086f5, type: 2}
   CanQuit: 1

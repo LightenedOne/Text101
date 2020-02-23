@@ -15,7 +15,6 @@ MonoBehaviour:
   storyText: 'You perish. The clan goes hungry, down yet another hunter.
 
 
-    Press 1 to retry, or Q to quit.'
-  nextStates:
-  - {fileID: 11400000, guid: d3eed911914ab5f4dbb398d301e086f5, type: 2}
+    Press R to retry, or Q to quit.'
+  nextStates: []
   CanQuit: 1

@@ -19,6 +19,6 @@ MonoBehaviour:
     You win!
 
 
-    Press 1 to Retry or Q to quit.'
+    Press R to Retry or Q to quit.'
   nextStates: []
   CanQuit: 1
