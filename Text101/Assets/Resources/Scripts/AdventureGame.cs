@@ -12,6 +12,7 @@ public class AdventureGame : MonoBehaviour
     #endregion
 
     State state;
+    bool canQuit;
 
 
     // Start is called before the first frame update
@@ -26,6 +27,7 @@ public class AdventureGame : MonoBehaviour
     void Update()
     {
         ManageState();
+        QuitGame();
     }
 
     private void ManageState()
@@ -39,5 +41,16 @@ public class AdventureGame : MonoBehaviour
             }
             storyText.text = state.GetStateStory();
         }
+    }
+
+    private void QuitGame()
+    {
+        if(Input.GetKeyDown(KeyCode.Q))
+            if(state.CanQuitGame())
+            {
+                Application.Quit();
+                Debug.Log("Quitting Game...");
+            }
+
     }
 }

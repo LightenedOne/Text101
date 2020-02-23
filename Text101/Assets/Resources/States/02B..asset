@@ -10,11 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bccb6674dfd221d4bac619292c0381d1, type: 3}
-  m_Name: 01A. Affirmative
+  m_Name: 02B.
   m_EditorClassIdentifier: 
-  storyText: 'Sergeant Brooks nods. "Good. Go grab your gear from the armory and meet
-    up with your squad leader."
+  storyText: 'As you are waiting, unbeknownst to you, a deadly spider found its way
+    onto your back. It bit, and before you knew what had happened, your lie on the
+    ground, convulsing.
 
 
     Press 1 to continue.'
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 6bfb5ab947955894d875e5714fcb2219, type: 2}
+  CanQuit: 0

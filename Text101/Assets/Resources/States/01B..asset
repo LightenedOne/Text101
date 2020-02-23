@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bccb6674dfd221d4bac619292c0381d1, type: 3}
+  m_Name: 01B.
+  m_EditorClassIdentifier: 
+  storyText: 'You ready your bow and fire the moment opportunity strikes. The nearest
+    Hinn goes down - an arrow lodged in its chest. The rest scatter, confused and
+    afraid - moments later, they dart East, into the treeline.
+
+
+    What will you do?
+
+
+    1. Skin and harvest the downed Hinn
+
+    2. Pursue the Hinn'
+  nextStates:
+  - {fileID: 11400000, guid: 021be4a625b5bf04dae5b5d659e68e2b, type: 2}
+  - {fileID: 11400000, guid: 09fdf2d79329bdb42984a4a3c7a3a52f, type: 2}
+  CanQuit: 0

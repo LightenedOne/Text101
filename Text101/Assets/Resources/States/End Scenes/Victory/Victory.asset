@@ -10,17 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bccb6674dfd221d4bac619292c0381d1, type: 3}
-  m_Name: 01B. Explain
+  m_Name: Victory
   m_EditorClassIdentifier: 
-  storyText: 'The Sergeant sighs, standing up straight, and motions towards a large
-    whiteboard across the room.
-
-    "The mission is simple - you''re airdropping into northern Iran to resuce a hostage
-    from ISIS terrorists. This is a stealth mission, ideally - quick and easy. Got
-    it?"
+  storyText: 'The clan will eat well tonight. You provided enough meat to ensure they''ll
+    make it for the next few months - your bravery and skill was commended.
 
 
-    1. "Yes, sir."
+    You win!
 
-    2. "I still don''t get it."'
+
+    Press 1 to Retry or Q to quit.'
   nextStates: []
+  CanQuit: 1
